@@ -1,0 +1,14 @@
+# Manipulación y análisis de datos
+pandas==2.3.3
+numpy==2.3.4
+
+# Visualización de datos
+matplotlib==3.10.7
+seaborn==0.13.2
+
+# Machine Learning, preprocesamiento y balanceo de datos
+scikit-learn==1.7.2
+imbalanced-learn==0.14.1
+
+# Soporte para ejecución de Jupyter Notebooks
+ipykernel>=6.0.0
