@@ -1,0 +1,71 @@
+# ==========================================
+# Datos y Datasets (CSV, Excel, comprimidos)
+# ==========================================
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.zip
+*.tar.gz
+# Si tienes una carpeta específica para datos generados/descargados:
+data/
+datasets/
+
+# ==========================================
+# Jupyter Notebooks (Caché y Checkpoints)
+# ==========================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*-checkpoint.ipynb
+
+# ==========================================
+# Entornos Virtuales (Python / Conda)
+# ==========================================
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.conda/
+
+# ==========================================
+# Caché de Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==========================================
+# Modelos y Serialización pesada (Pickle/Joblib)
+# ==========================================
+*.pkl
+*.pickle
+*.joblib
+*.h5
+models/
+
+# ==========================================
+# Entornos de desarrollo y Sistema Operativo
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Variables de entorno y credenciales
+# ==========================================
+.env
+*.env
+
+# ==========================================
+# Documentos
+# ==========================================
+*.pdf
